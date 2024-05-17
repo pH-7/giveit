@@ -4,6 +4,8 @@
   "description": "Debug with ease any nested objects, arrays, etc. JSON.stringify wrapper to display nested objects with indentation & color for quick debugging.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "author": "Pierre-Henry Soria",
+  "license": "MIT",
   "scripts": {
     "build": "tsc",
     "pre-publish": "npm run build",
@@ -33,8 +35,6 @@
       "ts-node/register"
     ]
   },
-  "author": "Pierre-Henry Soria",
-  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/pH-7/giveit.git"
