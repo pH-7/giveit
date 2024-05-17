@@ -1,6 +1,6 @@
 import chalk from "chalk";
 
-export function stringify(obj: any, indent = 2): string {
+export function giveit(obj: any, indent = 2): string {
   const colorize = (value: any): string => {
     if (typeof value === "string") {
       return chalk.green(`"${value}"`);

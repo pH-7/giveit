@@ -11,7 +11,7 @@ npm install giveit
 ## Usage
 
 ```typescript
-import { stringify } from "giveit";
+import { giveit } from "giveit";
 
 const arrObj = [
   {
@@ -27,11 +27,11 @@ const arrObj = [
   },
 ];
 
-// give it! stringify will nicely show arrObj
-console.log(stringify(arrObj));
+// give it! giveit() will nicely show arrObj
+console.log("See nested values of arrObj", giveit(arrObj));
 ```
 
-![Example giveit stringify output](example-giveit-output.png)
+![Example of showing nested objects](example-giveit-output.png)
 
 ## Author
 
