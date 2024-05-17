@@ -11,6 +11,14 @@
   "keywords": ["stringify", "debug", "debugging", "nested", "objects", "arrays", "json", "indentation", "color", "pretty", "print"],
   "author": "Pierre-Henry Soria",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pH-7/giveit.git"
+  },
+  "homepage": "https://github.com/pH-7/giveit#readme",
+  "bugs": {
+    "url": "https://github.com/pH-7/giveit/issues"
+  },
   "dependencies": {
     "chalk": "^4.1.2"
   },
