@@ -1,3 +1,8 @@
+# Depedency folders
 node_modules
+
+# TS generated output
 dist
+
+# Metadata OS files
 .DS_Store
