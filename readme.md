@@ -30,6 +30,8 @@ const arrObj = [
 console.log(stringify(obj));
 ```
 
+![Example giveit stringify output](example-giveit-output.png)
+
 ## Running Tests
 
 The package includes tests to ensure the `stringify()` function works correctly. To run the tests, use the following command:
@@ -37,7 +39,6 @@ The package includes tests to ensure the `stringify()` function works correctly.
 ```console
 npm test
 ```
-
 
 ## Author
 
