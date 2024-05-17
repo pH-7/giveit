@@ -1,6 +1,6 @@
 {
   "name": "giveit",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "Debug with ease any nested objects, arrays, etc. JSON.stringify wrapper to display nested objects with indentation & color for quick debugging.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
