@@ -27,7 +27,8 @@ const arrObj = [
   },
 ];
 
-console.log(stringify(obj));
+// give it! stringify will nicely show arrObj
+console.log(stringify(arrObj));
 ```
 
 ![Example giveit stringify output](example-giveit-output.png)
