@@ -30,6 +30,15 @@ const arrObj = [
 console.log(stringify(obj));
 ```
 
+## Running Tests
+
+The package includes tests to ensure the `stringify()` function works correctly. To run the tests, use the following command:
+
+```console
+npm test
+```
+
+
 ## Author
 
 [Pierre-Henry Soria ツ](https://ph7.me) – A [super passionate](https://github.com/pH-7) and enthusiastic Problem-Solver / Senior Software Engineer living currently in Sydney 🦘
