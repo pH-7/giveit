@@ -1,0 +1,21 @@
+{
+  "name": "showit",
+  "version": "1.0.0",
+  "description": "Debug with ease any nested objects, arrays, etc. JSON.stringify wrapper to display nested objects with indentation & color for quick debugging.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublish": "npm run build"
+  },
+  "keywords": ["stringify", "debug", "debugging", "nested", "objects", "arrays", "json", "indentation", "color", "pretty", "print"],
+  "author": "Pierre-Henry Soria",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.2"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.45",
+    "typescript": "^4.7.4"
+  }
+}
