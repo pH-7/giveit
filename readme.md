@@ -1,6 +1,6 @@
 # giveit 
 
-Debug with ease any nested objects, arrays, etc. **giveit** (AKA "Give It To Me") is a `JSON.stringify` wrapper to display nested objects with indentation & color for quick debugging
+Debug with ease any nested objects, arrays, etc. **giveit** (AKA "Give It To Me") is a lightweight `JSON.stringify` wrapper to display nested objects with indentation and color for quick debugging.
 
 ## Installation
 
