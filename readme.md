@@ -37,9 +37,7 @@ console.log("See nested values of arrObj", giveit(arrObj));
 
 [![Pierre-Henry Soria](https://s.gravatar.com/avatar/a210fe61253c43c869d71eaed0e90149?s=200)](https://ph7.me "Pierre-Henry Soria - Software Data Engineer")
 
-[Pierre-Henry Soria ツ](https://ph7.me) – A [super passionate](https://github.com/pH-7) and enthusiastic Problem-Solver / Senior Software Data Engineer living currently in Sydney 🦘
-
-Also, a true cheese 🧀, ristretto ☕️, and dark chocolate lover! 😋 👉 Reach me on [LinkedIn](https://www.linkedin.com/in/ph7enry/) ⚡️
+[Pierre-Henry Soria ツ](https://ph7.me) – A [super passionate](https://github.com/pH-7) and enthusiastic Problem-Solver / Senior Software Data Engineer living currently in Sydney. Also, a true cheese 🧀, ristretto ☕️, and dark chocolate lover! 😋 👉 Reach me on [LinkedIn](https://www.linkedin.com/in/ph7enry/) ⚡️
 
 ## License
 
