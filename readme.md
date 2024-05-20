@@ -4,8 +4,16 @@ Debug with ease any nested objects, arrays, etc. **giveit** (AKA "Give It To Me"
 
 ## Installation
 
+### Using [NPM](https://www.npmjs.com/package/giveit)
+
 ```console
-npm install giveit
+npm i giveit
+```
+
+### Using [Yarn](https://yarnpkg.com/package/giveit)
+
+```console
+yarn add giveit
 ```
 
 ## Usage
