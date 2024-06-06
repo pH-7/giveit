@@ -14,13 +14,27 @@ export function giveit(variable: any, indent = 2): string {
     if (value === null) {
       return chalk.red("null");
     }
-    return value;
+    if (Array.isArray(value)) {
+      return chalk.cyan(`[${value.map(colorize).join(", ")}]`);
+    }
+    if (typeof value === "object") {
+      const keys = Object.keys(value);
+      if (keys.length === 0) {
+        return chalk.magenta("{}");
+      }
+      return chalk.magenta(
+        `{${keys
+          .map((key) => `${chalk.cyan(key)}: ${colorize(value[key])}`)
+          .join(", ")}}`
+      );
+    }
+    return chalk.gray(value.toString()); // Handle other types
   };
 
   const jsonString = JSON.stringify(variable, null, indent);
 
   const colorizedString = jsonString.replace(
-    /(\".*?\"|true|false|null|\d+)/g,
+    /(\".*?\"|true|false|null|\d+|\[.*?\]|\{.*?\})/g,
     (match) => {
       return colorize(JSON.parse(match));
     }
